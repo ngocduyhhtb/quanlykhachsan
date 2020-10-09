@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản Lý Khách Sạn</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="../public/css/index.css">
+    <link type="text/css" rel="stylesheet" href="../public/icon/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+<body>
+<header id="header" class="navbar-static">
+    <div class="top-nav">
+        <div class="container-top-nav">
+            <ul class="quick-menu pull-left">
+                <li>
+                    <a href="#">My Account</a>
+                </li>
+                <li class="ribbon">
+                    English
+                </li>
+            </ul>
+            <ul class="quick-menu pull-right">
+                <li><i class="fas fa-shopping-bag" style="margin-right: 4px"></i>Purchase</li>
+                <li>Đăng ký</li>
+                <li>Đăng nhập</li>
+            </ul>
+        </div>
+    </div>
+    <div class="main-header">
+        <div class="container-main-header">
+            <div class="logo">
+                <img src="../public/img/logo.png" alt="">
+            </div>
+            <nav class="main-menu">
+                <ul class="menu">
+                    <li><i class="fas fa-home"></i>Lưu trú</li>
+                    <li><i class="fas fa-fighter-jet"></i>Chuyến bay</li>
+                    <li><i class="fas fa-car"></i>Thuê xe</li>
+                    <li><i class="fas fa-map-marker-alt"></i>Địa điểm tham quan</li>
+                    <li><i class="fas fa-taxi"></i>Taxi sân bay</li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+<div class="search-form">
+    <div class="search-container">
+        <div class="search-intro">
+            <h3>Tìm kiếm ưu đãi khách sạn, chỗ nghỉ dạng nhà ở và nhiều hơn nữa...
+            </h3>
+            <p>Từ những khu nghỉ dưỡng thanh bình đến những căn hộ hạng sang hiện đại
+            </p>
+        </div>
+        <div class="input-main">
+            <div class="input-container">
+                <div class="finder-location-input input-item">
+                    <p class="title">Điểm đến</p>
+                    <label>
+                        <input type="text" class="finder-input" placeholder="Bạn muốn đến đâu">
+                    </label>
+                </div>
+                <div class="checkin-checkout input-item">
+                    <div class="row" style="margin: 0">
+                        <div class="checkin datepicker">
+                            <p class="title">Check in</p>
+                            <label>
+                                <input class="timepicker" placeholder="Checkin">
+                            </label>
+                            <div class="calendar"></div>
+                        </div>
+                        <div class="checkout datepicker">
+                            <p class="title">Check out</p>
+                            <label>
+                                <input class="timepicker" placeholder="Checkout">
+                            </label>
+                            <div class="calendar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-quantily input-item">
+                    <p>
+                        Số lượng
+                    </p>
+                    <div class="quantily-selector">
+                        <div class="selector">
+                            <span>Phòng</span>
+                            <label>
+                                <select>
+                                    <option selected>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04  </option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="selector">
+                            <span>Người lớn</span>
+                            <label>
+                                <select>
+                                    <option selected>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04  </option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="selector">
+                            <span>Trẻ em</span>
+                            <label>
+                                <select>
+                                    <option selected>01</option>
+                                    <option>02</option>
+                                    <option>03</option>
+                                    <option>04  </option>
+                                </select>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="search-submit">
+                    <button type="submit" class="search-btn">Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+<script src="../public/js/user/index.js"></script>
+</body>
+</html>
