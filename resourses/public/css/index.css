@@ -10,7 +10,11 @@ li {
 ul {
     padding: 0;
 }
-
+select{
+    border: none;
+    outline: none;
+    background-color: #f2f2f2;
+}
 /*Header*/
 
 #header {
@@ -167,18 +171,36 @@ ul.menu li i {
     align-items: center;
     position: relative;
 }
+.search-input{
+    border: 0;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
 .checkin-checkout{
     display: flex;
+}
+.search-quantily{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .quantily-selector{
     display: flex;
 }
+div.selector select{
+    padding: 5px 3px 5px 5px
+}
+div.selector span{
+    margin: 0 3px 0 6px;
+}
 .search-submit{
-    /*height: 100%;*/
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*justify-content: center;*/
 }
 .search-btn{
-    height: 30px;
+    border: none;
+    padding: 10px 14px;
+    outline: none;
+}
+.search-btn:active, .search-btn:focus{
+    outline-style: none;
 }
