@@ -230,7 +230,7 @@ div.selector span{
     height: 180px;
 }
 .build__inner .inner__item img:hover{
-    animation: 0.5s fadeIn;
+    /*animation: 0.5s fadeIn;*/
     transform: scale(1.1);
     transition: 0.5s;
 }
