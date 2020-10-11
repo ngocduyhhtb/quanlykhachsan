@@ -19,14 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="comit">
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/khachsancanho.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/leutraiquantrong.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/nhakhach.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/nhanghimat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/nhanghivenduong.jpg" afterDir="false" />
+    <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New commit">
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/47ArgentinaApartment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/CasaMalasaña.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/Dalat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/FloraChiadoApartments.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/Hanoi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/Hochiminh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/Luxury3BedroomsLeLouvreIbyLivinparis.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/VillaDomina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/danang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/phuquoc.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/layout/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/css/index.css" afterDir="false" />
@@ -69,11 +76,11 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\quanlykhachsanNew\resourses\public\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\Web\QuanLyKhachSan\resourses\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\quanlykhachsanNew\resourses\public\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +97,7 @@
       <workItem from="1602238051820" duration="6875000" />
       <workItem from="1602297551075" duration="595000" />
       <workItem from="1602337922046" duration="1858000" />
+      <workItem from="1602421242651" duration="7105000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1602251861370</created>
@@ -98,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602251861370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New commit">
+      <created>1602407031685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602407031685</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,20 +134,27 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="New Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
+    <MESSAGE value="New commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602251864842">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2" timestamp="1602407063898">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602407063898" />
     <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602251864842" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602431430847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1602431430847" />
     <state x="346" y="0" width="1090" height="703" key="dock-window-1" timestamp="1602406206990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="346" y="0" width="1090" height="703" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602406206990" />
-    <state x="616" y="258" key="run.anything.popup" timestamp="1602243036969">
-      <screen x="0" y="30" width="1920" height="1050" />
+    <state x="616" y="226" key="run.anything.popup" timestamp="1602429060416">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="616" y="226" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1602429060416" />
     <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602243036969" />
   </component>
 </project>

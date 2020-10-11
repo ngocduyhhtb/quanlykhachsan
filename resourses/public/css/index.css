@@ -240,6 +240,142 @@ div.selector span{
 .build__inner .inner__item .subtitle{
     font-size: 14px;
 }
+/*Khám phá Việt Nam */
+.largest-popular{
+    display: flex;
+    justify-content: center;
+}
+.largest-popular-container{
+    width: 70%;
+}
+.build-carousel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.build-title__text {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+
+}
+.build-title__subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.bui-card__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.bui-title__subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #6b6b6b;
+}
+.bui-carousel__inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.bui-card__image-container img{
+    width: 207px;
+    height: 180px;
+    border-radius: 4%;
+}
+.bui-card__image-container img:hover{
+    opacity: 0.8;
+    border: #bc5b01;
+}
+
+/* Nhà ở mà khách yêu thích */
+span {
+    display: block;
+}
+.index__section{
+    display: flex;
+    justify-content: center;
+}
+.index__section-container {
+    width: 70%;
+}
+.bui-carousel{
+
+}
+.bui-carousel__inner{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.bui-font {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.bui-card__tiltle .new--title {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.bui-card__content .bui-title__subtitle {
+    margin: 0;
+    padding: 0;
+}
+.bh-carousel--new__price {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.bui-review-score {
+    font-size: 14px;
+
+}
+.bui-review-score .bui-review-score__badge{
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    background-color: #003580;
+    color: #ffF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    vertical-align: baseline;
+    border-radius: 6px 6px 6px 0;
+}
+.bui-review-score .bui-review-score__title {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    color: #003580;
+}
+.bui-review-score {
+    display: flex;
+    justify-content: flex-start;
+}
+.bui-review-score__content {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.bui-review-score__title{
+
+}
+.bui-review-score__text {
+    justify-content: center;
+    padding-left: 20px;
+}
+.bui-card__image-container__1 img{
+    width: 260px;
+    height: 245px;
+    /* border-radius: 4%; */
+}
 .build__inner .inner__item .property-img{
     position: relative;
     transition: transform 5s;
