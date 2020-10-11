@@ -208,3 +208,32 @@ div.selector span{
 .search-btn:active, .search-btn:focus{
     outline-style: none;
 }
+/*Search by Property*/
+
+.search-by-property{
+    display: flex;
+    justify-content: center;
+}
+.search-by-property-container{
+    width: 70%;
+}
+.build__inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.build__inner .inner__item img{
+    width: 207px;
+    height: 180px;
+    border-radius: 4%;
+}
+.build__inner .inner__item img:hover{
+    opacity: 0.8;
+    border: #bc5b01;
+}
+.build__inner .inner__item h3 a{
+    font-size: 20px;
+}
+.build__inner .inner__item .subtitle{
+    font-size: 14px;
+}
