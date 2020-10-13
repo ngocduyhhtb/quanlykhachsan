@@ -214,6 +214,7 @@ div.selector span{
 .search-by-property{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 .search-by-property-container{
     width: 70%;
@@ -223,14 +224,25 @@ div.selector span{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.text-header{
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 26px;
+}
 .build__inner .inner__item img{
     border-radius: 4%;
-    max-width: 100%;
+    border: none;
+    outline: none;
     width: 207px;
-    height: 180px;
+    height: 198px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+}
+.property-img{
+    overflow: hidden;
 }
 .build__inner .inner__item img:hover{
-    /*animation: 0.5s fadeIn;*/
     transform: scale(1.1);
     transition: 0.5s;
 }
@@ -264,10 +276,11 @@ div.selector span{
     font-weight: 400;
     line-height: 24px;
 }
-.bui-card__title {
-    font-size: 14px;
-    font-weight: 700;
+.bui-card__content .bui-card__title {
+    font-size: 20px;
+    font-weight: 500;
     line-height: 20px;
+    margin-top: 9px;
 }
 .bui-title__subtitle {
     font-size: 14px;
@@ -279,23 +292,29 @@ div.selector span{
     display: flex;
     flex-wrap: wrap;
 }
-.bui-card__image-container img{
+.bui-carousel__item .bui-card__image-container img{
     width: 207px;
     height: 180px;
     border-radius: 4%;
+    transition: fadeIn 0.5s;
 }
-.bui-card__image-container img:hover{
-    opacity: 0.8;
-    border: #bc5b01;
+.bui-carousel__item .bui-card__image-container img:hover{
+    opacity: 0.7;
+    transition: 0.6s;
 }
 
 /* Nhà ở mà khách yêu thích */
+.main-title{
+
+}
 span {
     display: block;
 }
 .index__section{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
 }
 .index__section-container {
     width: 70%;
@@ -310,12 +329,7 @@ span {
     justify-content: space-between;
     width: 100%;
 }
-.bui-font {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32px;
-}
-.bui-card__tiltle .new--title {
+.bui-card__title .new--title {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
@@ -323,6 +337,10 @@ span {
 .bui-card__content .bui-title__subtitle {
     margin: 0;
     padding: 0;
+}
+.build-title__subtitle-description{
+    margin-top: 12px;
+    margin-bottom: 16px;
 }
 .bh-carousel--new__price {
     font-size: 14px;
@@ -333,7 +351,7 @@ span {
 }
 .bui-review-score {
     font-size: 14px;
-
+    margin-top: 12px ;
 }
 .bui-review-score .bui-review-score__badge{
     width: 28px;
@@ -373,17 +391,52 @@ span {
 }
 .bui-card__image-container__1 img{
     width: 260px;
-    height: 245px;
+    height: 210px;
     /* border-radius: 4%; */
 }
 .build__inner .inner__item .property-img{
     position: relative;
-    transition: transform 5s;
     box-sizing: border-box;
     overflow: hidden;
     width: 207px;
     height: 180px;
     border-radius: 4%;
+}
+
+
+/*FOOTER*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #FAFAFA;
+    margin-top: 200px;
+}
+
+.footer-container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.footer-container .footer-logo{
+    width: 100%;
+}
+.footer h3{
+        font-size: 12px
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-faq{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+.footer-img{
+    margin-top: auto;
+    width: 30%;
 }
 @keyframes fadeIn {
     0%{
