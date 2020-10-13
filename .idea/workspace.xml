@@ -20,15 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New Commit">
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/apple-app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/bocongthuong-dangky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/footer-bocongthuong" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/google-app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/logo-bocongthuong.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QuanLyKhachSan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuanLyKhachSan.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/layout/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/css/index.css" afterDir="false" />
@@ -96,7 +89,9 @@
       <workItem from="1602474613147" duration="1478000" />
       <workItem from="1602520897455" duration="13000" />
       <workItem from="1602521521500" duration="594000" />
-      <workItem from="1602557933302" duration="2232000" />
+      <workItem from="1602557933302" duration="2268000" />
+      <workItem from="1602568922052" duration="3309000" />
+      <workItem from="1602602081435" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1602251861370</created>
@@ -105,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602251861370</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New Commit">
+      <created>1602560210286</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602560210286</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,10 +131,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602251864842">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602560215419">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602251864842" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602560215419" />
     <state x="346" y="0" width="1090" height="703" key="dock-window-1" timestamp="1602406206990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

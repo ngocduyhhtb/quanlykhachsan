@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{bootstrap, bootstrap-datepicker, bootstrap-theme, jquery-3.5.1.slim, jquery.timepicker, popper.js}" />
+    <file url="PROJECT" libraries="{bootstrap, bootstrap-datepicker, bootstrap-theme, jquery, jquery-3.5.1, jquery-3.5.1.slim, jquery-ui, jquery.color-2.2.0, jquery.timepicker, popper.js}" />
   </component>
 </project>

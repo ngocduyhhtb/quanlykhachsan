@@ -10,11 +10,13 @@ li {
 ul {
     padding: 0;
 }
-select{
+
+select {
     border: none;
     outline: none;
     background-color: #f2f2f2;
 }
+
 /*Header*/
 
 #header {
@@ -94,7 +96,8 @@ select{
     color: black;
     padding: 0 10px;
 }
-.pull-right li:last-child:hover, .pull-right li:nth-child(2):hover{
+
+.pull-right li:last-child:hover, .pull-right li:nth-child(2):hover {
     color: #01B7F2;
 }
 
@@ -148,56 +151,68 @@ div.logo {
 ul.menu li i {
     margin-right: 5px;
 }
+
 /*Finder*/
-.search-form{
+.search-form {
     display: flex;
     justify-content: center;
     height: 260px;
     background-color: #F5F5F5;
 }
-.search-container{
+
+.search-container {
     width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.input-main{
+
+.input-main {
     display: flex;
     justify-content: space-between;
 }
-.input-container{
+
+.input-container {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
-.search-input{
+
+.search-input {
     border: 0;
     background-color: #f2f2f2;
     padding: 10px;
 }
-.checkin-checkout{
+
+.checkin-checkout {
     display: flex;
 }
-.search-quantily{
+
+.search-quantily {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
 }
-.quantily-selector{
+
+.quantily-selector {
     display: flex;
 }
-div.selector select{
+
+div.selector select {
     padding: 5px 3px 5px 5px;
 }
-div.selector span{
+
+div.selector span {
     margin: 0 3px 0 6px;
 }
-.search-submit{
+
+.search-submit {
 }
-.search-btn{
+
+.search-btn {
     border: none;
     padding: 10px 14px;
     outline: none;
@@ -206,30 +221,36 @@ div.selector span{
     color: white;
     font-weight: 600;
 }
-.search-btn:active, .search-btn:focus{
+
+.search-btn:active, .search-btn:focus {
     outline-style: none;
 }
+
 /*Search by Property*/
 
-.search-by-property{
+.search-by-property {
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
-.search-by-property-container{
+
+.search-by-property-container {
     width: 70%;
 }
-.build__inner{
+
+.build__inner {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.text-header{
+
+.text-header {
     font-size: 21px;
     font-weight: 700;
     margin-bottom: 26px;
 }
-.build__inner .inner__item img{
+
+.build__inner .inner__item img {
     border-radius: 4%;
     border: none;
     outline: none;
@@ -239,109 +260,134 @@ div.selector span{
     position: relative;
     display: inline-block;
 }
-.property-img{
+
+.property-img {
     overflow: hidden;
 }
-.build__inner .inner__item img:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
+
+.build__inner .inner__item img:hover {
+    /*transform: scale(1.1);*/
+    /*transition: 0.5s;*/
+    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
 }
-.build__inner .inner__item h3 a{
+
+.build__inner .inner__item h3 a {
     font-size: 20px;
 }
-.build__inner .inner__item .subtitle{
+
+.build__inner .inner__item .subtitle {
     font-size: 14px;
 }
+
 /*Khám phá Việt Nam */
-.largest-popular{
+.largest-popular {
     display: flex;
     justify-content: center;
 }
-.largest-popular-container{
+
+.largest-popular-container {
     width: 70%;
 }
+
 .build-carousel {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .build-title__text {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
 
 }
+
 .build-title__subtitle {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
+
 .bui-card__content .bui-card__title {
     font-size: 20px;
     font-weight: 500;
     line-height: 20px;
     margin-top: 9px;
 }
+
 .bui-title__subtitle {
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
     color: #6b6b6b;
 }
-.bui-carousel__inner{
+
+.bui-carousel__inner {
     display: flex;
     flex-wrap: wrap;
 }
-.bui-carousel__item .bui-card__image-container img{
+
+.bui-carousel__item .bui-card__image-container img {
     width: 207px;
     height: 180px;
     border-radius: 4%;
     transition: fadeIn 0.5s;
 }
-.bui-carousel__item .bui-card__image-container img:hover{
-    opacity: 0.7;
-    transition: 0.6s;
+
+.bui-carousel__item .bui-card__image-container img:hover {
+    /*opacity: 0.7;*/
+    /*transition: 0.6s;*/
+    box-shadow: 0 0 30px;
 }
 
 /* Nhà ở mà khách yêu thích */
-.main-title{
+.main-title {
 
 }
+
 span {
     display: block;
 }
-.index__section{
+
+.index__section {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     flex-wrap: wrap;
 }
+
 .index__section-container {
     width: 70%;
 }
-.bui-carousel{
+
+.bui-carousel {
 
 }
-.bui-carousel__inner{
+
+.bui-carousel__inner {
     margin: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
+
 .bui-card__title .new--title {
     font-size: 14px;
     line-height: 20px;
     font-weight: 400;
 }
+
 .bui-card__content .bui-title__subtitle {
     margin: 0;
     padding: 0;
 }
-.build-title__subtitle-description{
+
+.build-title__subtitle-description {
     margin-top: 12px;
     margin-bottom: 16px;
 }
+
 .bh-carousel--new__price {
     font-size: 14px;
     font-weight: 600;
@@ -349,11 +395,13 @@ span {
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .bui-review-score {
     font-size: 14px;
-    margin-top: 12px ;
+    margin-top: 12px;
 }
-.bui-review-score .bui-review-score__badge{
+
+.bui-review-score .bui-review-score__badge {
     width: 28px;
     height: 28px;
     font-size: 14px;
@@ -367,34 +415,41 @@ span {
     vertical-align: baseline;
     border-radius: 6px 6px 6px 0;
 }
+
 .bui-review-score .bui-review-score__title {
     font-size: 14px;
     font-weight: 500;
     line-height: 1;
     color: #003580;
 }
+
 .bui-review-score {
     display: flex;
     justify-content: flex-start;
 }
+
 .bui-review-score__content {
     display: flex;
     align-items: center;
     padding-left: 10px;
 }
-.bui-review-score__title{
+
+.bui-review-score__title {
 
 }
+
 .bui-review-score__text {
     justify-content: center;
     padding-left: 20px;
 }
-.bui-card__image-container__1 img{
+
+.bui-card__image-container__1 img {
     width: 260px;
     height: 210px;
     /* border-radius: 4%; */
 }
-.build__inner .inner__item .property-img{
+
+.build__inner .inner__item .property-img {
     position: relative;
     box-sizing: border-box;
     overflow: hidden;
@@ -406,51 +461,73 @@ span {
 
 /*FOOTER*/
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
     background-color: #FAFAFA;
     margin-top: 200px;
 }
 
-.footer-container{
+.footer-container {
     width: 70%;
     display: flex;
     flex-direction: column;
     margin-top: 40px;
 }
-.footer-container .footer-logo{
+
+.footer-container .footer-logo {
     width: 100%;
 }
-.footer h3{
-        font-size: 12px
+
+.footer h3 {
+    font-size: 12px
 }
-.footer-main{
+
+.footer-main {
     display: flex;
     justify-content: space-between;
+    margin-top: 30px;
 }
-.footer-faq{
+
+.footer-faq {
     display: flex;
     flex-direction: column;
     flex: 1 1 auto;
 }
-.footer-img{
+
+.footer-title {
+    margin-bottom: 30px;
+}
+
+.footer-img {
     margin-top: auto;
     width: 30%;
 }
+
 @keyframes fadeIn {
-    0%{
+    0% {
         opacity: 1;
     }
-    100%{
+    100% {
         opacity: 0.7;
     }
 }
+
 @keyframes transForm {
-    0%{
+    0% {
         transform: scale(1);
     }
-    100%{
+    100% {
         transform: scale(1.1);
     }
 }
+
+/*[type="date"] {*/
+/*    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;*/
+/*}*/
+/*[type="date"]::-webkit-inner-spin-button {*/
+/*    display: none;*/
+/*}*/
+/*[type="date"]::-webkit-calendar-picker-indicator {*/
+/*    opacity: 0;*/
+/*}*/
