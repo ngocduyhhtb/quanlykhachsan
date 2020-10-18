@@ -20,28 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New Commit">
-      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/duotone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/duotone.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resourses/public/img/bg-img-search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/bg-banner-home.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/layout/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/all.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/all.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/brands.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/brands.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/regular.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/regular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/regular.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/solid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/solid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/solid.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.min.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +96,7 @@
       <workItem from="1602663637446" duration="20276000" />
       <workItem from="1602736585242" duration="595000" />
       <workItem from="1602824239266" duration="53000" />
-      <workItem from="1602945556880" duration="1571000" />
+      <workItem from="1602945556880" duration="2258000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1602251861370</created>
@@ -138,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602603960177</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New Commit">
+      <created>1602991284751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602991284751</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,19 +146,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New Commit" />
     <MESSAGE value="New" />
-    <option name="LAST_COMMIT_MESSAGE" value="New" />
+    <MESSAGE value="New Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="310" key="FileChooserDialogImpl" timestamp="1602824291115">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1602824291115" />
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602603964493">
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602991287761">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602603964493" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602991287761" />
     <state x="346" y="0" width="1090" height="703" key="dock-window-1" timestamp="1602406206990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
