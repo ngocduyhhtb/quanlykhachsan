@@ -19,7 +19,30 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New Commit" />
+    <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New Commit">
+      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/duotone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/duotone.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/icon/css/light.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/bg-img-search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/layout/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/all.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/all.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/all.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/all.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/brands.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/brands.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/brands.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/brands.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/fontawesome.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/regular.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/regular.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/regular.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/regular.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/solid.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/solid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/solid.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/solid.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/svg-with-js.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/icon/css/v4-shims.min.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,11 +80,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Web\quanlykhachsan\resourses\public\icon\css" />
+      <recent name="D:\Project\Web\QuanLyKhachSan\resourses\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\quanlykhachsanNew\resourses\public\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Project\Web\QuanLyKhachSan\resourses\public" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -85,7 +109,13 @@
       <workItem from="1602521521500" duration="594000" />
       <workItem from="1602557933302" duration="2268000" />
       <workItem from="1602568922052" duration="3309000" />
-      <workItem from="1602602081435" duration="620000" />
+      <workItem from="1602602081435" duration="1151000" />
+      <workItem from="1602606017245" duration="422000" />
+      <workItem from="1602642870096" duration="3692000" />
+      <workItem from="1602663637446" duration="20276000" />
+      <workItem from="1602736585242" duration="595000" />
+      <workItem from="1602824239266" duration="53000" />
+      <workItem from="1602945556880" duration="1571000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1602251861370</created>
@@ -133,10 +163,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="New" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602560215419">
+    <state x="740" y="310" key="FileChooserDialogImpl" timestamp="1602824291115">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602560215419" />
+    <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1602824291115" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602603964493">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602603964493" />
     <state x="346" y="0" width="1090" height="703" key="dock-window-1" timestamp="1602406206990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -145,5 +179,9 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602243036969" />
+    <state x="623" y="257" key="search.everywhere.popup" timestamp="1602675086930">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602675086930" />
   </component>
 </project>
