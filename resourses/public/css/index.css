@@ -20,9 +20,11 @@ select {
 /*Header*/
 
 #header {
-    position: relative;
+    overflow: auto;
     background-color: #003580;
     height: 110px;
+    display: inline-block;
+    width: 100%;
 }
 
 /*Top Header*/
@@ -65,10 +67,7 @@ select {
 
 .pull-right {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
     margin: 0;
-    width: 30%;
 }
 
 .pull-right li {
@@ -90,15 +89,17 @@ select {
     background-color: #1554ad;
 }
 
-.pull-right li:last-child, .pull-right li:nth-child(2) {
+.pull-right li:last-child,
+.pull-right li:nth-child(2) {
     background-color: white;
     border-radius: 3%;
     color: black;
     padding: 0 10px;
 }
 
-.pull-right li:last-child:hover, .pull-right li:nth-child(2):hover {
-    color: #01B7F2;
+.pull-right li:last-child:hover,
+.pull-right li:nth-child(2):hover {
+    color: #01b7f2;
 }
 
 /*Main-Menu*/
@@ -108,6 +109,7 @@ select {
     justify-content: center;
     align-items: center;
     height: 70%;
+    position: relative;
 }
 
 .container-main-header {
@@ -153,79 +155,170 @@ ul.menu li i {
 }
 
 /*Finder*/
-.search-form {
+
+div.search {
+    height: 420px;
     display: flex;
     justify-content: center;
-    height: 260px;
-    background-color: #F5F5F5;
+    /*margin-top: 40px;*/
+    background-image: url("https://mytourcdn.com/themes/dist/images/bg-banner-home.png"),
+        linear-gradient(0, #459ff5, #1c7ed8);
 }
-
 .search-container {
     width: 70%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.input-main {
+    height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.input-container {
+.search-box {
+    width: 30%;
+    background-image: linear-gradient(0, #459ff5, #1c7ed8);
+    border-radius: 2%;
+    height: 90%;
+    padding: 0 15px 0 15px;
+}
+
+.search-wrapper {
+    display: flex;
+}
+
+.nav-tabs-search {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+ul.nav-tabs-search {
+    margin: 0 0 30px 0;
+}
+
+.nav-tabs-search .left {
+    padding: 16px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.nav-tabs-search .right {
+    padding: 16px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.nav-tabs-search .left i,
+.nav-tabs-search .right i {
+    margin-right: 6px;
+}
+
+.search-box-input i {
+    /*margin: 0 auto;*/
+    position: absolute;
+}
+
+.search-box-input .input-items {
     width: 100%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
 }
 
-.search-input {
-    border: 0;
-    background-color: #f2f2f2;
+.search-box-input .icon {
+    font-size: 20px;
+    padding: 15px;
+    min-width: 40px;
+    text-align: center;
+}
+
+.search-box-input .input-fields {
+    width: 100%;
     padding: 10px;
+    text-align: center;
+    border: none;
+    margin-bottom: 18px;
+    border-radius: 3px;
 }
 
-.checkin-checkout {
+.search-box-input .date {
     display: flex;
-}
-
-.search-quantily {
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-    height: 100%;
 }
 
-.quantily-selector {
+.search-box-input .datepicker {
+    padding-left: 20px;
+    outline: none;
+    border-color: #01b7f2;
+}
+
+.search-box-input .date-picker {
+    width: 49%;
+}
+
+.search-box-input .checkout {
+}
+
+.input-items .room-guest-select {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.input-items .room-guest-select .amount-item {
+    position: relative;
     display: flex;
 }
 
-div.selector select {
-    padding: 5px 3px 5px 5px;
+.input-items .room-guest-select .amount-item input {
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    padding: 8px 7px 8px 0;
 }
 
-div.selector span {
-    margin: 0 3px 0 6px;
+.input-items .room-guest-select-text {
+    position: absolute;
+    padding-left: 12px;
+    line-height: 40px;
 }
 
-.search-submit {
+.input-items .room-guest-select .change-data {
+    display: none;
 }
 
 .search-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    width: 100%;
+}
+.search-btn .search-submit {
+    width: 100%;
+    padding: 12px 0;
     border: none;
-    padding: 10px 14px;
     outline: none;
-    margin-top: 32px;
-    background-color: #005999;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 20px;
     color: white;
-    font-weight: 600;
+    background-color: #ed4079;
 }
 
-.search-btn:active, .search-btn:focus {
-    outline-style: none;
+/*Search Slideshow */
+/* #carouselResponsive {
+    max-width: 70%;
 }
 
+.carousel-inner .carousel-item img {
+    width: 738px;
+    height: 338px;
+} */
 /*Search by Property*/
 
 .search-by-property {
@@ -266,9 +359,9 @@ div.selector span {
 }
 
 .build__inner .inner__item img:hover {
-    /*transform: scale(1.1);*/
-    /*transition: 0.5s;*/
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .build__inner .inner__item h3 a {
@@ -299,7 +392,6 @@ div.selector span {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-
 }
 
 .build-title__subtitle {
@@ -342,7 +434,6 @@ div.selector span {
 
 /* Nhà ở mà khách yêu thích */
 .main-title {
-
 }
 
 span {
@@ -361,7 +452,6 @@ span {
 }
 
 .bui-carousel {
-
 }
 
 .bui-carousel__inner {
@@ -408,7 +498,7 @@ span {
     line-height: 20px;
     font-weight: 500;
     background-color: #003580;
-    color: #ffF;
+    color: #fff;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -435,7 +525,6 @@ span {
 }
 
 .bui-review-score__title {
-
 }
 
 .bui-review-score__text {
@@ -458,13 +547,12 @@ span {
     border-radius: 4%;
 }
 
-
 /*FOOTER*/
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     margin-top: 200px;
 }
 
@@ -480,7 +568,7 @@ span {
 }
 
 .footer h3 {
-    font-size: 12px
+    font-size: 12px;
 }
 
 .footer-main {
@@ -521,13 +609,3 @@ span {
         transform: scale(1.1);
     }
 }
-
-/*[type="date"] {*/
-/*    background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;*/
-/*}*/
-/*[type="date"]::-webkit-inner-spin-button {*/
-/*    display: none;*/
-/*}*/
-/*[type="date"]::-webkit-calendar-picker-indicator {*/
-/*    opacity: 0;*/
-/*}*/

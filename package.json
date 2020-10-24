@@ -1,0 +1,28 @@
+{
+  "name": "quanlykhachsan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "normalize.css": "^8.0.1",
+    "react-dom": "^16.14.0",
+    "react-responsive-carousel": "^3.2.10",
+    "window-date-picker": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngocduyhhtb/quanlykhachsan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngocduyhhtb/quanlykhachsan/issues"
+  },
+  "homepage": "https://github.com/ngocduyhhtb/quanlykhachsan#readme"
+}

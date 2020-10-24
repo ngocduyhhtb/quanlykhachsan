@@ -20,11 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c993f6a-b34f-4f85-8250-64987bf3e196" name="Default Changelist" comment="New Commit">
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/slide1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/slide2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/slide3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/img/slide4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/js/jquery-3.5.1.slim.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/public/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resourses/src/ReactComponent/SlideShow.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/QuanLyKhachSan.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuanLyKhachSan.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_10_2020_11_27_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_11_11_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_11_11_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM_[Default_Changelist]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_3_42_PM__Default_Changelist_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_4_39_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_10_11_2020_4_39_PM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/layout/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/layout/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resourses/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resourses/public/js/user/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/resourses/public/js/user/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +79,32 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ReactJS/quanlykhachsan" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\Web\quanlykhachsan\resourses\public\css" />
       <recent name="D:\quanlykhachsanNew\resourses\public\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\Web\quanlykhachsan\resourses\public\icon\css" />
       <recent name="D:\Project\Web\QuanLyKhachSan\resourses\public" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quanlykhachsan/resourses/layout/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +127,17 @@
       <workItem from="1602521521500" duration="594000" />
       <workItem from="1602557933302" duration="2268000" />
       <workItem from="1602568922052" duration="3309000" />
-      <workItem from="1602602081435" duration="595000" />
+      <workItem from="1602602081435" duration="1151000" />
+      <workItem from="1602606017245" duration="422000" />
+      <workItem from="1602642870096" duration="3692000" />
+      <workItem from="1602663637446" duration="20276000" />
+      <workItem from="1602736585242" duration="595000" />
+      <workItem from="1602824239266" duration="53000" />
+      <workItem from="1602945556880" duration="2509000" />
+      <workItem from="1603074887076" duration="32000" />
+      <workItem from="1603075509068" duration="44000" />
+      <workItem from="1603258575101" duration="39000" />
+      <workItem from="1603511246903" duration="1081000" />
     </task>
     <task id="LOCAL-00001" summary="New Commit">
       <created>1602251861370</created>
@@ -107,7 +153,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602560210286</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New">
+      <created>1602603960177</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1602603960177</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New Commit">
+      <created>1602991284751</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1602991284751</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New Commit">
+      <created>1602991934772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602991934772</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,21 +194,82 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="New" />
     <MESSAGE value="New Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="New Commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602560215419">
+    <state x="740" y="310" key="FileChooserDialogImpl" timestamp="1603075552135">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602560215419" />
+    <state x="740" y="310" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1603075552135" />
+    <state width="1899" height="252" key="GridCell.Tab.0.bottom" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.0.center" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.0.left" timestamp="1603511820469">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820469" />
+    <state width="1899" height="252" key="GridCell.Tab.0.right" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.1.bottom" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.1.center" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.1.left" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.1.right" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.2.bottom" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.2.center" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.2.left" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state width="1899" height="252" key="GridCell.Tab.2.right" timestamp="1603511820470">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1899" height="252" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1603511820470" />
+    <state x="461" y="200" key="SettingsEditor" timestamp="1603511504191">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="461" y="200" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1603511504191" />
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2" timestamp="1602991937046">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="552" y="288" key="Vcs.Push.Dialog.v2/0.30.1920.1050@0.30.1920.1050" timestamp="1602991937046" />
     <state x="346" y="0" width="1090" height="703" key="dock-window-1" timestamp="1602406206990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="346" y="0" width="1090" height="703" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1602406206990" />
-    <state x="616" y="258" key="run.anything.popup" timestamp="1602243036969">
+    <state x="616" y="258" key="run.anything.popup" timestamp="1603075444991">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602243036969" />
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1603075444991" />
+    <state x="623" y="257" key="search.everywhere.popup" timestamp="1602675086930">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1602675086930" />
   </component>
 </project>
