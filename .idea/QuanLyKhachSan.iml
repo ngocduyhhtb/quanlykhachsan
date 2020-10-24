@@ -18,5 +18,7 @@
     <orderEntry type="library" name="jquery-3.5.1" level="application" />
     <orderEntry type="library" name="jquery.color-2.2.0" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
+    <orderEntry type="library" name="babel-standalone" level="application" />
+    <orderEntry type="library" name="react" level="application" />
   </component>
 </module>

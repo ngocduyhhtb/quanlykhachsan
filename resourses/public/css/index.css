@@ -89,15 +89,17 @@ select {
     background-color: #1554ad;
 }
 
-.pull-right li:last-child, .pull-right li:nth-child(2) {
+.pull-right li:last-child,
+.pull-right li:nth-child(2) {
     background-color: white;
     border-radius: 3%;
     color: black;
     padding: 0 10px;
 }
 
-.pull-right li:last-child:hover, .pull-right li:nth-child(2):hover {
-    color: #01B7F2;
+.pull-right li:last-child:hover,
+.pull-right li:nth-child(2):hover {
+    color: #01b7f2;
 }
 
 /*Main-Menu*/
@@ -153,25 +155,26 @@ ul.menu li i {
 }
 
 /*Finder*/
+
 div.search {
     height: 420px;
     display: flex;
     justify-content: center;
     /*margin-top: 40px;*/
-    background-image: url("https://mytourcdn.com/themes/dist/images/bg-banner-home.png");
+    background-image: url("https://mytourcdn.com/themes/dist/images/bg-banner-home.png"),
+        linear-gradient(0, #459ff5, #1c7ed8);
 }
 .search-container {
     width: 70%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .search-box {
     width: 30%;
-    background-image: linear-gradient(0, #459ff5, #1C7ED8);
-    box-shadow: #CCCCCC 0 0 7px 5px;
+    background-image: linear-gradient(0, #459ff5, #1c7ed8);
     border-radius: 2%;
     height: 90%;
     padding: 0 15px 0 15px;
@@ -200,7 +203,6 @@ ul.nav-tabs-search {
     border-bottom: 2px solid white;
     font-weight: 700;
     font-size: 17px;
-
 }
 
 .nav-tabs-search .right {
@@ -212,12 +214,9 @@ ul.nav-tabs-search {
     font-weight: 700;
 }
 
-.nav-tabs-search .left i, .nav-tabs-search .right i {
+.nav-tabs-search .left i,
+.nav-tabs-search .right i {
     margin-right: 6px;
-}
-
-.search-box-input {
-    /*margin-top: 25px;*/
 }
 
 .search-box-input i {
@@ -254,7 +253,7 @@ ul.nav-tabs-search {
 .search-box-input .datepicker {
     padding-left: 20px;
     outline: none;
-    border-color: #01B7F2;
+    border-color: #01b7f2;
 }
 
 .search-box-input .date-picker {
@@ -262,7 +261,6 @@ ul.nav-tabs-search {
 }
 
 .search-box-input .checkout {
-
 }
 
 .input-items .room-guest-select {
@@ -294,13 +292,13 @@ ul.nav-tabs-search {
     display: none;
 }
 
-.search-btn{
+.search-btn {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     width: 100%;
 }
-.search-btn .search-submit{
+.search-btn .search-submit {
     width: 100%;
     padding: 12px 0;
     border: none;
@@ -309,10 +307,18 @@ ul.nav-tabs-search {
     font-weight: 700;
     font-size: 20px;
     color: white;
-    background-color: #ED4079;
+    background-color: #ed4079;
 }
 
+/*Search Slideshow */
+/* #carouselResponsive {
+    max-width: 70%;
+}
 
+.carousel-inner .carousel-item img {
+    width: 738px;
+    height: 338px;
+} */
 /*Search by Property*/
 
 .search-by-property {
@@ -355,7 +361,7 @@ ul.nav-tabs-search {
 .build__inner .inner__item img:hover {
     transform: scale(1.1);
     transition: 0.5s;
-    box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+    box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
 }
 
 .build__inner .inner__item h3 a {
@@ -386,7 +392,6 @@ ul.nav-tabs-search {
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
-
 }
 
 .build-title__subtitle {
@@ -429,7 +434,6 @@ ul.nav-tabs-search {
 
 /* Nhà ở mà khách yêu thích */
 .main-title {
-
 }
 
 span {
@@ -448,7 +452,6 @@ span {
 }
 
 .bui-carousel {
-
 }
 
 .bui-carousel__inner {
@@ -495,7 +498,7 @@ span {
     line-height: 20px;
     font-weight: 500;
     background-color: #003580;
-    color: #ffF;
+    color: #fff;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -522,7 +525,6 @@ span {
 }
 
 .bui-review-score__title {
-
 }
 
 .bui-review-score__text {
@@ -545,13 +547,12 @@ span {
     border-radius: 4%;
 }
 
-
 /*FOOTER*/
 
 .footer {
     display: flex;
     justify-content: center;
-    background-color: #FAFAFA;
+    background-color: #fafafa;
     margin-top: 200px;
 }
 
@@ -567,7 +568,7 @@ span {
 }
 
 .footer h3 {
-    font-size: 12px
+    font-size: 12px;
 }
 
 .footer-main {
