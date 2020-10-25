@@ -271,9 +271,6 @@ div.search {
       width: 49%;
 }
 
-/* .input-items .amount-item>input:focus~.btn-change-data {
-      display: flex;
-} */
 
 .input-items .room-guest-select .amount-item input {
       text-align: center;
@@ -290,9 +287,6 @@ div.search {
       line-height: 40px;
 }
 
-/* .input-items .room-guest-select .change-data {
-      display: none;
-} */
 
 .input-items .btn-change-data {
       position: absolute;
@@ -310,7 +304,7 @@ div.search {
 .input-items .btn-change-data button,
 button:focus,
 button:active {
-      padding: none;
+      padding: 0;
       border: none;
       outline: none;
       position: relative;
