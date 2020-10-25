@@ -2,577 +2,597 @@
 <html lang="en">
 
 <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Quản Lý Khách Sạn</title>
-      <link type="text/css" rel="stylesheet" href="../public/css/normalize.css" />
-      <link type="text/css" rel="stylesheet" href="../public/css/index.css" />
-      <link type="text/css" rel="stylesheet" href="../public/icon/css/all.css" />
-      <link type="text/css" rel="stylesheet" href="../public/icon/css/fontawesome.css" />
-      <link rel="stylesheet" href="../public/css/bootstrap.min.css"
-            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Quản Lý Khách Sạn</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="../public/css/index.css" />
+    <link type="text/css" rel="stylesheet" href="../public/icon/css/all.css" />
+    <link type="text/css" rel="stylesheet" href="../public/icon/css/fontawesome.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 </head>
 
 <body>
-      <div class="app">
-            <header id="header" class="navbar-static navbar-fixed-top">
-                  <div class="top-nav">
-                        <div class="container-top-nav">
-                              <ul class="quick-menu pull-left">
-                                    <li>
-                                          <a href="#">My Account</a>
-                                    </li>
-                                    <li class="ribbon">English</li>
-                              </ul>
-                              <ul class="quick-menu pull-right">
-                                    <li>
-                                          <i class="fas fa-shopping-bag" style="margin-right: 4px"></i>Purchase
-                                    </li>
-                                    <li>Đăng ký</li>
-                                    <li>Đăng nhập</li>
-                              </ul>
-                        </div>
-                  </div>
-                  <div class="main-header">
-                        <div class="container-main-header">
-                              <div class="logo">
-                                    <img src="../public/img/logo.png" alt="" />
-                              </div>
-                              <nav class="main-menu">
-                                    <ul class="menu">
-                                          <li><i class="fas fa-home"></i>Lưu trú</li>
-                                          <li><i class="fas fa-fighter-jet"></i>Chuyến bay</li>
-                                          <li><i class="fas fa-car"></i>Thuê xe</li>
-                                          <li><i class="fas fa-map-marker-alt"></i>Địa điểm tham quan</li>
-                                          <li><i class="fas fa-taxi"></i>Taxi sân bay</li>
-                                    </ul>
-                              </nav>
-                        </div>
-                  </div>
-            </header>
-            <div class="search">
-                  <div class="search-container">
-                        <div class="search-box">
-                              <div class="search-wrapper">
-                                    <ul class="nav nav-tabs border-0 mt-3 row" id="search-box-header" role="tablist">
-                                          <li class="nav-item p-0 left">
-                                                <a class="=text-light" data-toggle="tab" href="#hotel">Khách sạn</a>
-                                          </li>
-                                          <li class="nav-item p-0 right">
-                                                <a class="text-light" data-toggle="tab" href="#planes">Máy bay</a>
-                                          </li>
-                                    </ul>
-                                    <div class="tab-content">
-                                          <div id="hotel" class="container tab-pane active">
-                                                <br />
-                                                <div class="search-box-input">
-                                                      <div class="input-items">
-                                                            <i class="fas fa-car icon"></i>
-                                                            <input type="text" class="search-box-input input-fields"
-                                                                  placeholder="Nhập tên khách sạn, địa danh.."
-                                                                  style="border:none; outline:none;" />
-                                                      </div>
-                                                      <div class="input-items date checkout">
-                                                            <div class="date-picker">
-                                                                  <i class="fas fa-calendar-week icon"></i>
-                                                                  <input id="from" name="from"
-                                                                        class="datepicker input-fields" type="text"
-                                                                        placeholder="dd/mm/yyyy" />
-                                                            </div>
-                                                            <div class="date-picker">
-                                                                  <i class="fas fa-calendar-week icon"></i>
-                                                                  <input id="to" name="to"
-                                                                        class="datepicker input-fields" type="text"
-                                                                        placeholder="dd/mm/yyyy" />
-                                                            </div>
-                                                      </div>
-                                                      <div class="input-items">
-                                                            <div class="room-guest-select">
-                                                                  <div class="rooms amount-item">
-                                                                        <span
-                                                                              class="room-guest-select-text">Phòng</span>
-                                                                        <input type="text" value="1" id="myNumber1"
-                                                                              class="room-guest-select-value input-number"
-                                                                              style="border:none; outline:none"
-                                                                              onclick="display()" />
-                                                                        <div class="change-data"></div>
-                                                                        <div class="input-group-btn btn-change-data"
-                                                                              id="btn-data">
-                                                                              <button type="button" id="down1"
-                                                                                    class="btn btn-default"><span
-                                                                                    class="glyphicon glyphicon-plus"
-                                                                                    onclick="decrement('myNumber1', 'rooms-value')">-</span>
-                                                                              </button>
-                                                                              <input type="text" id="rooms-value"
-                                                                                    class="border-0" value="1" />
-                                                                              <button id="up1" class="btn btn-default">
-                                                                                    <span
-                                                                                    class="glyphicon glyphicon-plus"
-                                                                                    onclick="increment('myNumber1', 'rooms-value')">+</span>
-                                                                              </button>
-                                                                        </div>
-                                                                  </div>
-                                                                  <div class="guest amount-item">
-                                                                        <span
-                                                                              class="room-guest-select-text">Khách</span>
-                                                                        <input type="text" id="myNumber2"
-                                                                              class="form-control input-number"
-                                                                              value="1" />
-                                                                        <div class="input-group-btn btn-change-data">
-                                                                              <button id="up2" class="btn btn-default"
-                                                                                    <span
-                                                                                    class="glyphicon glyphicon-plus"
-                                                                                    onclick="decrement('myNumber2', 'guest-value')">-</span>
-                                                                              </button>
-                                                                              <input type="text" id="guest-value"
-                                                                                    class="border-0" value="1" />
-                                                                              <button id="down2" class="btn btn-default"
-                                                                                    <span
-                                                                                    class="glyphicon glyphicon-plus"
-                                                                                    onclick="increment('myNumber2', 'guest-value')">+</span>
-                                                                              </button>
-                                                                        </div>
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                      <div class="form-group search-btn">
-                                                            <button class="search-submit" type="submit">
-                                                                  <span class="btn-search-txt">Tìm khách sạn</span>
-                                                            </button>
-                                                      </div>
-                                                </div>
-                                          </div>
-                                          <div id="planes" class="container tab-pane fade">
-                                                <br />
-                                                <h3>Menu 1</h3>
-                                                <p>
-                                                      Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                                      laboris nisi ut aliquip ex ea commodo consequat.
-                                                </p>
-                                          </div>
+    <div class="app">
+        <header id="header" class="navbar-static navbar-fixed-top">
+            <div class="top-nav">
+                <div class="container-top-nav">
+                    <ul class="quick-menu pull-left">
+                        <li>
+                            <a href="#">My Account</a>
+                        </li>
+                        <li class="ribbon">English</li>
+                    </ul>
+                    <ul class="quick-menu pull-right">
+                        <li>
+                            <i class="fas fa-shopping-bag" style="margin-right: 4px"></i>Purchase
+                        </li>
+                        <li>Đăng ký</li>
+                        <li>Đăng nhập</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="container-main-header">
+                    <div class="logo">
+                        <img src="../public/img/logo.png" alt="" />
+                    </div>
+                    <nav class="main-menu">
+                        <ul class="menu">
+                            <li><i class="fas fa-home"></i>Lưu trú</li>
+                            <li>
+                                <i class="fas fa-fighter-jet"></i>Chuyến bay
+                            </li>
+                            <li><i class="fas fa-car"></i>Thuê xe</li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>Địa
+                                điểm tham quan
+                            </li>
+                            <li><i class="fas fa-taxi"></i>Taxi sân bay</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="search">
+            <div class="search-container">
+                <div class="search-box">
+                    <div class="search-wrapper">
+                        <ul class="nav nav-tabs border-0 mt-3 row" id="search-box-header" role="tablist">
+                            <li class="nav-item p-0 left">
+                                <a class="=text-light" data-toggle="tab" href="#hotel">Khách sạn</a>
+                            </li>
+                            <li class="nav-item p-0 right">
+                                <a class="text-light" data-toggle="tab" href="#planes">Máy bay</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div id="hotel" class="container tab-pane active">
+                                <br />
+                                <div class="search-box-input">
+                                    <div class="input-items">
+                                        <i class="fas fa-car icon"></i>
+                                        <input type="text" class="search-box-input input-fields"
+                                            placeholder="Nhập tên khách sạn, địa danh.." />
                                     </div>
-                              </div>
-                        </div>
-                        <div class="search-carousel">
-                              <div class="search-carousel-container">
-                                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                          <ol class="carousel-indicators">
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="0"
-                                                      class="active"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                          </ol>
-                                          <div class="carousel-inner">
-                                                <div class="carousel-item active">
-                                                      <img class="d-block" src="../public/img/slide1.jpg"
-                                                            alt="First slide" />
-                                                </div>
-                                                <div class="carousel-item">
-                                                      <img class="d-block" src="../public/img/slide2.jpg"
-                                                            alt="Second slide" />
-                                                </div>
-                                                <div class="carousel-item">
-                                                      <img class="d-block" src="../public/img/slide3.jpg"
-                                                            alt="Third slide" />
-                                                </div>
-                                                <div class="carousel-item">
-                                                      <img class="d-block" src="../public/img/slide4.jpg"
-                                                            alt="Third slide" />
-                                                </div>
-                                          </div>
-                                          <a class="carousel-control-prev" href="#carouselExampleIndicators"
-                                                role="button" data-slide="prev">
-                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Previous</span>
-                                          </a>
-                                          <a class="carousel-control-next" href="#carouselExampleIndicators"
-                                                role="button" data-slide="next">
-                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                <span class="sr-only">Next</span>
-                                          </a>
+                                    <div class="input-items date checkout">
+                                        <div class="date-picker">
+                                            <i class="fas fa-calendar-week icon"></i>
+                                            <input id="from" name="from" class="datepicker input-fields" type="text"
+                                                placeholder="dd/MM/yyyy" />
+                                        </div>
+                                        <div class="date-picker">
+                                            <i class="fas fa-calendar-week icon"></i>
+                                            <input id="to" name="to" class="datepicker input-fields" type="text"
+                                                placeholder="dd/MM/yyyy" />
+                                        </div>
                                     </div>
-                              </div>
+                                    <div class="input-items">
+                                        <div class="room-guest-select">
+                                            <div class="rooms amount-item">
+                                                <span class="room-guest-select-text">Phòng</span>
+                                                <input type="text" value="1" class="room-guest-select-value" />
+                                                <div class="change-data"></div>
+                                            </div>
+                                            <div class="guest amount-item">
+                                                <span class="room-guest-select-text">Khách</span>
+                                                <input type="text" id="myNumber" class="form-control input-number"
+                                                    value="1" />
+                                                <div class="input-group-btn">
+                                                    <button id="up" class="btn btn-default" onclick="up('10')">
+                                                        <span class="glyphicon glyphicon-plus"></span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group search-btn">
+                                        <button class="search-submit" type="submit">
+                                            <span class="btn-search-txt">Tìm khách sạn</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="planes" class="container tab-pane fade">
+                                <br />
+                                <h3>Menu 1</h3>
+                                <p>
+                                    Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut
+                                    aliquip ex ea commodo consequat.
+                                </p>
+                            </div>
                         </div>
-                  </div>
+                    </div>
+                </div>
+                <div class="search-carousel">
+                    <div class="search-carousel-container">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block" src="../public/img/slide1.jpg" alt="First slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="../public/img/slide2.jpg" alt="Second slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="../public/img/slide3.jpg" alt="Third slide" />
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block" src="../public/img/slide4.jpg" alt="Third slide" />
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="destinations section">
-                  <div class="search-by-property">
-                        <div class="search-by-property-container">
-                              <h2 class="text-header">Tìm theo loại chỗ nghỉ</h2>
-                              <div class="container-item">
-                                    <ul class="build__inner">
-                                          <li class="inner__item">
-                                                <div class="build__inner">
-                                                      <a href="" class="property-img">
-                                                            <img src="../public/img/khachsancanho.jpg" alt=""
-                                                                  class="item" />
-                                                      </a>
-                                                </div>
-                                                <div class="content">
-                                                      <h3 class="title">
-                                                            <a href="" class="property-name">Khách sạn </a>
-                                                      </h3>
-                                                      <p class="subtitle">731.924 khách sạn</p>
-                                                </div>
-                                          </li>
-                                          <li class="inner__item">
-                                                <div class="build__inner">
-                                                      <a href="" class="property-img"><img
-                                                                  src="../public/img/leutraiquantrong.jpg" alt=""
-                                                                  class="item" /></a>
-                                                </div>
-                                                <div class="content">
-                                                      <h3 class="title">
-                                                            <a href="">Lều trại sang trọng </a>
-                                                      </h3>
-                                                      <p class="subtitle">3.065 Lều trại sang trọng</p>
-                                                </div>
-                                          </li>
-                                          <li class="inner__item">
-                                                <div class="build__inner">
-                                                      <a href="" class="property-img"><img
-                                                                  src="../public/img/nhakhach.jpg" alt=""
-                                                                  class="item" /></a>
-                                                </div>
-                                                <div class="content">
-                                                      <h3 class="title">
-                                                            <a href=""> Nhà khách </a>
-                                                      </h3>
-                                                      <p class="subtitle">114.986 Nhà khách</p>
-                                                </div>
-                                          </li>
-                                          <li class="inner__item">
-                                                <div class="build__inner">
-                                                      <a href="" class="property-img"><img
-                                                                  src="../public/img/nhanghimat.jpg" alt=""
-                                                                  class="item" /></a>
-                                                </div>
-                                                <div class="content">
-                                                      <h3 class="title">
-                                                            <a href=""> Nhà nghỉ mát </a>
-                                                      </h3>
-                                                      <p class="subtitle">374.936 Nhà nghỉ mát</p>
-                                                </div>
-                                          </li>
-                                          <li class="inner__item">
-                                                <div class="build__inner">
-                                                      <a href="" class="property-img"><img
-                                                                  src="../public/img/nhanghivenduong.jpg" alt=""
-                                                                  class="item" /></a>
-                                                </div>
-                                                <div class="content">
-                                                      <h3 class="title">
-                                                            <a href="">Nhà nghỉ ven đường </a>
-                                                      </h3>
-                                                      <p class="subtitle">14.862 Nhà nghỉ ven đường</p>
-                                                </div>
-                                          </li>
-                                    </ul>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-            <div class="largest-popular">
-                  <div class="largest-popular-container">
-                        <div class="build-title">
-                              <h2 class="build-title__text main-title">Khám phá Việt Nam</h2>
-                              <span class="build-title__subtitle build-title__subtitle-description">Các điểm đến phổ
-                                    biến này có nhiều điều
-                                    chờ đón bạn</span>
-                        </div>
-                        <div class="bui-carousel">
-                              <ul class="bui-carousel__inner">
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container">
-                                                      <img src="../public/img/Dalat.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <div class="bui-title">
-                                                            <span class="bui-card__title">Đà Lạt</span>
-                                                            <span class="bui-title__subtitle">2.145 chỗ nghỉ</span>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container">
-                                                      <img src="../public/img/danang.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <div class="bui-title">
-                                                            <span class="bui-card__title">Đà Nẵng</span>
-                                                            <span class="bui-title__subtitle">2.508 chỗ nghỉ</span>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container">
-                                                      <img src="../public/img/Hanoi.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <div class="bui-title">
-                                                            <span class="bui-card__title">Hà Nội</span>
-                                                            <span class="bui-title__subtitle">3.802 chỗ nghỉ</span>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container">
-                                                      <img src="../public/img/Hochiminh.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <div class="bui-title">
-                                                            <span class="bui-card__title">TP. Hồ Chí Minh</span>
-                                                            <span class="bui-title__subtitle">5.603 chỗ nghỉ</span>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container">
-                                                      <img src="../public/img/phuquoc.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <div class="bui-title">
-                                                            <span class="bui-card__title">Phú Quốc</span>
-                                                            <span class="bui-title__subtitle">672 chỗ nghỉ</span>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                              </ul>
-                        </div>
-                  </div>
-            </div>
-            <div class="index__section">
-                  <div class="index__section-container">
-                        <h2 class="text-header">Nhà ở mà khách yêu thích</h2>
-                        <div class="bui-carousel">
-                              <ul class="bui-carousel__inner">
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container__1">
-                                                      <img src="../public/img/VillaDomina.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <h3 class="bui-card__title new--title">
-                                                            <span>The Apartments</span>
-                                                      </h3>
-                                                      <p class="bui-title__subtitle">London</p>
-                                                      <p class="bh-carousel--new__price">Giá từ VND 1.370.238</p>
-                                                      <div class="bui-review-score">
-                                                            <div class="bui-review-score__badge"
-                                                                  aria-label="Đạt điểm 9,0">
-                                                                  9,0
-                                                            </div>
-                                                            <div class="bui-review-score__content">
-                                                                  <div class="bui-review-score__title">Tuyệt hảo</div>
-                                                                  <div class="bui-review-score__text">3.128 đánh giá
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container__1">
-                                                      <img src="../public/img/Luxury3BedroomsLeLouvreIbyLivinparis.jpg"
-                                                            alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <h3 class="bui-card__title new--title">
-                                                            <span>The Pateo Estevao</span>
-                                                      </h3>
-                                                      <p class="bui-title__subtitle">Lisboa</p>
-                                                      <p class="bh-carousel--new__price">Giá từ VND 5.549.466</p>
-                                                      <div style="margin-top: 4px">
-                                                            <div class="bui-review-score">
-                                                                  <div class="bui-review-score__badge"
-                                                                        aria-label="Đạt điểm 9,4">
-                                                                        9,4
-                                                                  </div>
-                                                                  <div class="bui-review-score__content">
-                                                                        <div class="bui-review-score__title">Tuyệt hảo
-                                                                        </div>
-                                                                        <div class="bui-review-score__text">318 đánh giá
-                                                                        </div>
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container__1">
-                                                      <img src="../public/img/FloraChiadoApartments.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <h3 class="bui-card__title new--title">
-                                                            <span>Sugar Loft Apartment</span>
-                                                      </h3>
-                                                      <p class="bui-title__subtitle">Rio de Janeiro</p>
-                                                      <p class="bh-carousel--new__price">Giá từ VND 1.107.833</p>
-                                                      <div style="margin-top: 4px">
-                                                            <div class="bui-review-score">
-                                                                  <div class="bui-review-score__badge"
-                                                                        aria-label="Đạt điểm 9,1">
-                                                                        9,1
-                                                                  </div>
-                                                                  <div class="bui-review-score__content">
-                                                                        <div class="bui-review-score__title">Tuyệt hảo
-                                                                        </div>
-                                                                        <div class="bui-review-score__text">
-                                                                              3.128 đánh giá
-                                                                        </div>
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container__1">
-                                                      <img src="../public/img/CasaMalasaña.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <h3 class="bui-card__title new--title">
-                                                            <span>Apartments ulitsa</span>
-                                                      </h3>
-                                                      <p class="bui-title__subtitle">Saint Petersburg</p>
-                                                      <p class="bh-carousel--new__price">Giá từ VND 4.233.375</p>
-                                                      <div style="margin-top: 4px">
-                                                            <div class="bui-review-score">
-                                                                  <div class="bui-review-score__badge"
-                                                                        aria-label="Đạt điểm 9,8">
-                                                                        9,8
-                                                                  </div>
-                                                                  <div class="bui-review-score__content">
-                                                                        <div class="bui-review-score__title">Tuyệt hảo
-                                                                        </div>
-                                                                        <div class="bui-review-score__text">20 đánh giá
-                                                                        </div>
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                                    <li class="bui-carousel__item">
-                                          <a href="" class="bui-card">
-                                                <div class="bui-card__image-container__1">
-                                                      <img src="../public/img/47ArgentinaApartment.jpg" alt="" />
-                                                </div>
-                                                <div class="bui-card__content">
-                                                      <h3 class="bui-card__title new--title">
-                                                            <span>Santan Ana Boutique</span>
-                                                      </h3>
-                                                      <p class="bui-title__subtitle">Madrid</p>
-                                                      <p class="bh-carousel--new__price">Giá từ VND 6.768.978</p>
-                                                      <div style="margin-top: 4px">
-                                                            <div class="bui-review-score">
-                                                                  <div class="bui-review-score__badge"
-                                                                        aria-label="Đạt điểm 9,3">
-                                                                        9,3
-                                                                  </div>
-                                                                  <div class="bui-review-score__content">
-                                                                        <div class="bui-review-score__title">Tuyệt hảo
-                                                                        </div>
-                                                                        <div class="bui-review-score__text">300 đánh giá
-                                                                        </div>
-                                                                  </div>
-                                                            </div>
-                                                      </div>
-                                                </div>
-                                          </a>
-                                    </li>
-                              </ul>
-                        </div>
-                  </div>
-            </div>
-            <footer class="footer">
-                  <div class="footer-container">
-                        <div class="footer-logo">
-                              <a class="footer-logo-img">
-                                    <img src="../public/img/logo.png" alt="" />
-                              </a>
-                        </div>
-                        <div class="footer-main">
-                              <div class="footer-faq-room footer-faq">
-                                    <h3 class="footer-title">
-                                          QUY ĐỊNH DÀNH CHO WEBSITE TMĐT BÁN HÀNG – DỊCH VỤ ĐẶT PHÒNG
+        </div>
+        <div class="destinations section">
+            <div class="search-by-property">
+                <div class="search-by-property-container">
+                    <h2 class="text-header">Tìm theo loại chỗ nghỉ</h2>
+                    <div class="container-item">
+                        <ul class="build__inner">
+                            <li class="inner__item">
+                                <div class="build__inner">
+                                    <a href="" class="property-img">
+                                        <img src="../public/img/khachsancanho.jpg" alt="" class="item" />
+                                    </a>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">
+                                        <a href="" class="property-name">Khách sạn
+                                        </a>
                                     </h3>
-                                    <ul class="footer-text">
-                                          <a href="">
-                                                <li>Chính sách và quy định chung</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Quy định về thanh toán</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Quy định về xác nhận thông tin đặt phòng</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Chính sách về hủy đặt phòng và hoàn trả tiền</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Chính sách bảo mật thông tin</li>
-                                          </a>
-                                    </ul>
-                                    <img src="../public/img/logo-bocongthuong.png" alt="" class="footer-img" />
-                              </div>
-                              <div class="footer-faq-tour footer-faq">
-                                    <h3 class="footer-title">
-                                          QUY ĐỊNH CHO SÀN GDTMĐT - DỊCH VỤ ĐẶT PHÒNG VÀ DỊCH VỤ ĐẶT TOUR
-                                          DU LỊCH
+                                    <p class="subtitle">
+                                        731.924 khách sạn
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="inner__item">
+                                <div class="build__inner">
+                                    <a href="" class="property-img"><img src="../public/img/leutraiquantrong.jpg" alt=""
+                                            class="item" /></a>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">
+                                        <a href="">Lều trại sang trọng </a>
                                     </h3>
-                                    <ul class="footer-text">
-                                          <a href="">
-                                                <li>Quy chế hoạt động</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Chính sách bảo mật</li>
-                                          </a>
-                                          <a href="">
-                                                <li>Quy trình giải quyết tranh chấp, khiếu nại</li>
-                                          </a>
-                                    </ul>
-                                    <img src="../public/img/bocongthuong-dangky.png" alt="" class="footer-img" />
-                              </div>
-                              <div class="app-download">
-                                    <h3 class="footer-title">Tải ứng dụng</h3>
-                                    <div class="app-link">
-                                          <a href="" class="app-link-img">
-                                                <img src="../public/img/apple-app.png" alt="" />
-                                          </a>
-                                          <a href="" class="app-link-img">
-                                                <img src="../public/img/google-app.png" alt="" />
-                                          </a>
+                                    <p class="subtitle">
+                                        3.065 Lều trại sang trọng
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="inner__item">
+                                <div class="build__inner">
+                                    <a href="" class="property-img"><img src="../public/img/nhakhach.jpg" alt=""
+                                            class="item" /></a>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">
+                                        <a href=""> Nhà khách </a>
+                                    </h3>
+                                    <p class="subtitle">
+                                        114.986 Nhà khách
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="inner__item">
+                                <div class="build__inner">
+                                    <a href="" class="property-img"><img src="../public/img/nhanghimat.jpg" alt=""
+                                            class="item" /></a>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">
+                                        <a href=""> Nhà nghỉ mát </a>
+                                    </h3>
+                                    <p class="subtitle">
+                                        374.936 Nhà nghỉ mát
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="inner__item">
+                                <div class="build__inner">
+                                    <a href="" class="property-img"><img src="../public/img/nhanghivenduong.jpg" alt=""
+                                            class="item" /></a>
+                                </div>
+                                <div class="content">
+                                    <h3 class="title">
+                                        <a href="">Nhà nghỉ ven đường </a>
+                                    </h3>
+                                    <p class="subtitle">
+                                        14.862 Nhà nghỉ ven đường
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="largest-popular">
+            <div class="largest-popular-container">
+                <div class="build-title">
+                    <h2 class="build-title__text main-title">
+                        Khám phá Việt Nam
+                    </h2>
+                    <span class="build-title__subtitle build-title__subtitle-description">Các điểm đến phổ biến này có
+                        nhiều điều chờ đón
+                        bạn</span>
+                </div>
+                <div class="bui-carousel">
+                    <ul class="bui-carousel__inner">
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container">
+                                    <img src="../public/img/Dalat.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <div class="bui-title">
+                                        <span class="bui-card__title">Đà Lạt</span>
+                                        <span class="bui-title__subtitle">2.145 chỗ nghỉ</span>
                                     </div>
-                              </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container">
+                                    <img src="../public/img/danang.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <div class="bui-title">
+                                        <span class="bui-card__title">Đà Nẵng</span>
+                                        <span class="bui-title__subtitle">2.508 chỗ nghỉ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container">
+                                    <img src="../public/img/Hanoi.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <div class="bui-title">
+                                        <span class="bui-card__title">Hà Nội</span>
+                                        <span class="bui-title__subtitle">3.802 chỗ nghỉ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container">
+                                    <img src="../public/img/Hochiminh.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <div class="bui-title">
+                                        <span class="bui-card__title">TP. Hồ Chí Minh</span>
+                                        <span class="bui-title__subtitle">5.603 chỗ nghỉ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container">
+                                    <img src="../public/img/phuquoc.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <div class="bui-title">
+                                        <span class="bui-card__title">Phú Quốc</span>
+                                        <span class="bui-title__subtitle">672 chỗ nghỉ</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="index__section">
+            <div class="index__section-container">
+                <h2 class="text-header">Nhà ở mà khách yêu thích</h2>
+                <div class="bui-carousel">
+                    <ul class="bui-carousel__inner">
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container__1">
+                                    <img src="../public/img/VillaDomina.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <h3 class="bui-card__title new--title">
+                                        <span>The Apartments</span>
+                                    </h3>
+                                    <p class="bui-title__subtitle">
+                                        London
+                                    </p>
+                                    <p class="bh-carousel--new__price">
+                                        Giá từ VND 1.370.238
+                                    </p>
+                                    <div class="bui-review-score">
+                                        <div class="bui-review-score__badge" aria-label="Đạt điểm 9,0">
+                                            9,0
+                                        </div>
+                                        <div class="bui-review-score__content">
+                                            <div class="bui-review-score__title">
+                                                Tuyệt hảo
+                                            </div>
+                                            <div class="bui-review-score__text">
+                                                3.128 đánh giá
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container__1">
+                                    <img src="../public/img/Luxury3BedroomsLeLouvreIbyLivinparis.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <h3 class="bui-card__title new--title">
+                                        <span>The Pateo Estevao</span>
+                                    </h3>
+                                    <p class="bui-title__subtitle">
+                                        Lisboa
+                                    </p>
+                                    <p class="bh-carousel--new__price">
+                                        Giá từ VND 5.549.466
+                                    </p>
+                                    <div style="margin-top: 4px">
+                                        <div class="bui-review-score">
+                                            <div class="bui-review-score__badge" aria-label="Đạt điểm 9,4">
+                                                9,4
+                                            </div>
+                                            <div class="bui-review-score__content">
+                                                <div class="bui-review-score__title">
+                                                    Tuyệt hảo
+                                                </div>
+                                                <div class="bui-review-score__text">
+                                                    318 đánh giá
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container__1">
+                                    <img src="../public/img/FloraChiadoApartments.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <h3 class="bui-card__title new--title">
+                                        <span>Sugar Loft Apartment</span>
+                                    </h3>
+                                    <p class="bui-title__subtitle">
+                                        Rio de Janeiro
+                                    </p>
+                                    <p class="bh-carousel--new__price">
+                                        Giá từ VND 1.107.833
+                                    </p>
+                                    <div style="margin-top: 4px">
+                                        <div class="bui-review-score">
+                                            <div class="bui-review-score__badge" aria-label="Đạt điểm 9,1">
+                                                9,1
+                                            </div>
+                                            <div class="bui-review-score__content">
+                                                <div class="bui-review-score__title">
+                                                    Tuyệt hảo
+                                                </div>
+                                                <div class="bui-review-score__text">
+                                                    3.128 đánh giá
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container__1">
+                                    <img src="../public/img/CasaMalasaña.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <h3 class="bui-card__title new--title">
+                                        <span>Apartments ulitsa</span>
+                                    </h3>
+                                    <p class="bui-title__subtitle">
+                                        Saint Petersburg
+                                    </p>
+                                    <p class="bh-carousel--new__price">
+                                        Giá từ VND 4.233.375
+                                    </p>
+                                    <div style="margin-top: 4px">
+                                        <div class="bui-review-score">
+                                            <div class="bui-review-score__badge" aria-label="Đạt điểm 9,8">
+                                                9,8
+                                            </div>
+                                            <div class="bui-review-score__content">
+                                                <div class="bui-review-score__title">
+                                                    Tuyệt hảo
+                                                </div>
+                                                <div class="bui-review-score__text">
+                                                    20 đánh giá
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="bui-carousel__item">
+                            <a href="" class="bui-card">
+                                <div class="bui-card__image-container__1">
+                                    <img src="../public/img/47ArgentinaApartment.jpg" alt="" />
+                                </div>
+                                <div class="bui-card__content">
+                                    <h3 class="bui-card__title new--title">
+                                        <span>Santan Ana Boutique</span>
+                                    </h3>
+                                    <p class="bui-title__subtitle">
+                                        Madrid
+                                    </p>
+                                    <p class="bh-carousel--new__price">
+                                        Giá từ VND 6.768.978
+                                    </p>
+                                    <div style="margin-top: 4px">
+                                        <div class="bui-review-score">
+                                            <div class="bui-review-score__badge" aria-label="Đạt điểm 9,3">
+                                                9,3
+                                            </div>
+                                            <div class="bui-review-score__content">
+                                                <div class="bui-review-score__title">
+                                                    Tuyệt hảo
+                                                </div>
+                                                <div class="bui-review-score__text">
+                                                    300 đánh giá
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <a class="footer-logo-img">
+                        <img src="../public/img/logo.png" alt="" />
+                    </a>
+                </div>
+                <div class="footer-main">
+                    <div class="footer-faq-room footer-faq">
+                        <h3 class="footer-title">
+                            QUY ĐỊNH DÀNH CHO WEBSITE TMĐT BÁN HÀNG – DỊCH
+                            VỤ ĐẶT PHÒNG
+                        </h3>
+                        <ul class="footer-text">
+                            <a href="">
+                                <li>Chính sách và quy định chung</li>
+                            </a>
+                            <a href="">
+                                <li>Quy định về thanh toán</li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    Quy định về xác nhận thông tin đặt phòng
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    Chính sách về hủy đặt phòng và hoàn trả
+                                    tiền
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>Chính sách bảo mật thông tin</li>
+                            </a>
+                        </ul>
+                        <img src="../public/img/logo-bocongthuong.png" alt="" class="footer-img" />
+                    </div>
+                    <div class="footer-faq-tour footer-faq">
+                        <h3 class="footer-title">
+                            QUY ĐỊNH CHO SÀN GDTMĐT - DỊCH VỤ ĐẶT PHÒNG VÀ
+                            DỊCH VỤ ĐẶT TOUR DU LỊCH
+                        </h3>
+                        <ul class="footer-text">
+                            <a href="">
+                                <li>Quy chế hoạt động</li>
+                            </a>
+                            <a href="">
+                                <li>Chính sách bảo mật</li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    Quy trình giải quyết tranh chấp, khiếu
+                                    nại
+                                </li>
+                            </a>
+                        </ul>
+                        <img src="../public/img/bocongthuong-dangky.png" alt="" class="footer-img" />
+                    </div>
+                    <div class="app-download">
+                        <h3 class="footer-title">Tải ứng dụng</h3>
+                        <div class="app-link">
+                            <a href="" class="app-link-img">
+                                <img src="../public/img/apple-app.png" alt="" />
+                            </a>
+                            <a href="" class="app-link-img">
+                                <img src="../public/img/google-app.png" alt="" />
+                            </a>
                         </div>
-                  </div>
-            </footer>
-      </div>
-      <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-      <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-      <script src="../public/js/jquery-3.5.1.slim.min.js"></script>
-      <script src="../public/js/jquery.min.js"></script>
-      <script src="../public/js/popper.min.js"></script>
-      <script src="../public/js/bootstrap.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react.js" charset="utf-8"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.4.2/react-dom.js" charset="utf-8"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
-      <script src="../public//js/user/index.js"></script>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="../public/js/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+    <script src="../public//js/user/index.js"></script>
+    <script>
+        function up(max) {
+            document.getElementById("myNumber").value =
+                parseInt(document.getElementById("myNumber").value) + 1;
+            if (
+                document.getElementById("myNumber").value >= parseInt(max)
+            ) {
+                document.getElementById("myNumber").value = max;
+            }
+        }
+    </script>
 </body>
 
 </html>
