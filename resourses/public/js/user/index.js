@@ -1,5 +1,5 @@
 display = () => {
-  var ele = document.getElementById('btn-data');
+  const ele = document.getElementById('btn-data');
   if (ele.style.display === 'none') {
     ele.style.display = "block";
   }
