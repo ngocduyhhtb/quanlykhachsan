@@ -3,57 +3,123 @@
 
 <head>
     <meta charset="UTF-8">
+    <title>User Control Panel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="../public/css/normalize.css" />
-    <link type="text/css" rel="stylesheet" href="../public/icon/css/all.css" />
-    <link type="text/css" rel="stylesheet" href="../public/icon/css/fontawesome.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>User</title>
+    <link type="text/css" rel="stylesheet" href="../public/css/normalize.css"/>
+    <link type="text/css" rel="stylesheet" href="../public/css/user.css"/>
+    <link type="text/css" rel="stylesheet" href="../public/icon/css/all.css"/>
+    <link type="text/css" rel="stylesheet" href="../public/icon/css/fontawesome.css"/>
+    <link type="text/css" rel="stylesheet" href="../public/css/bootstrap.min.css">
 </head>
 
 <body>
+<div class="container">
     <div class="left-menu">
-        <div class="left-menu-container">
-            <ul class="left-menu-inner">
-                <li class="left-menu-item">
-                    <i class="far fa-calendar-check"></i> Đơn đặt chỗ của tôi
-                </li>
-                <li class="left-menu-item">
-                    <i class="far fa-comment-dots"></i> Hộp thư
-                </li>
-                <li class="left-menu-item">
-                    <i class="far fa-star"></i> Nhận xét
-                </li>
-                <li class="left-menu-item">
-                    <i class="fab fa-vine"></i> Dịch vụ VIP
-                </li>
-                <li class="left-menu-item">
-                    <i class="fas fa-dollar-sign"></i> Tiền Tra
-                </li>
-                <li class="left-menu-item">
-                    <i class="far fa-user-circle"></i> Profile
-                </li>
-            </ul>
+        <ul class="left-menu-inner">
+            <li class="left-menu-item">
+                <a href=""><i class="far fa-calendar-check"></i> Đơn đặt chỗ của tôi</a>
+            </li>
+            <li class="left-menu-item">
+                <a href=""><i class="far fa-comment-dots"></i> Hộp thư</a>
+            </li>
+            <li class="left-menu-item">
+                <a href=""><i class="far fa-star"></i> Nhận xét</a>
+            </li>
+            <li class="left-menu-item">
+                <a href=""><i class="fab fa-vine"></i> Dịch vụ VIP</a>
+            </li>
+            <li class="left-menu-item">
+                <a href=""><i class="fas fa-dollar-sign"></i> Tiền Travelo</a>
+            </li>
+            <li class="left-menu-item">
+                <a href=""><i class="far fa-user-circle"></i> Profile</a>
+            </li>
+        </ul>
+    </div>
+    <div class="user-panel">
+        <div class="banner">
+            <div class="banner-container">
+                <div class="banner-logo">
+                    <i class="fas fa-star" style="color: #f7e46c"></i>AgodaVIP
+                </div>
+                <div class="banner-content">
+                    <h4 id="banner-content-header" style="margin: 0">
+                        Duy thích làm khách VIP không?
+                    </h4>
+                    <p id="banner-content-text" style="margin: 0">
+                        Hãy hoàn thành thêm 5 lượt đặt phòng để mở khóa các giảm giá và lợi ích VIP
+                    </p>
+                </div>
+                <div class="banner-button">
+                    <button class="banner-learn-more">Tìm hiểu thêm</button>
+                </div>
+            </div>
+        </div>
+        <div class="user-panel-container">
+            <div class="my-booking-filter">
+                <div class="my-booking-header">
+                    <div class="filter-container">
+                        <div class="filter-option active">
+                            <a href="">Sắp tới</a>
+                        </div>
+                        <div class="filter-option">
+                            <a href="">Hoàn tất</a>
+                        </div>
+                        <div class="filter-option">
+                            <a href="">Đã huỷ</a>
+                        </div>
+                    </div>
+                    <div class="block-switch">
+                        <div class="switch-title">
+                            Sắp xếp theo
+                        </div>
+                        <div class="switch-option">
+                            <a href="">Ngày đặt phòng</a>
+                        </div>
+                        <div class="switch-option">
+                            <a href="">Ngày nhận phòng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="room-number-search">
+                    <div class="room-number-search-input">
+                        <label for="booking-id" class="m-0">Mã số đặt phòng</label>
+                        <input id="booking-id" placeholder="Mã số đặt phòng" value="">
+                    </div>
+                    <div class="room-number-search-button">
+                        <button type="button" class="btn btn-secondary room-search-button">Tìm</button>
+                        <button type="button" class="btn btn-light room-search-button">Xoá</button>
+                    </div>
+                </div>
+            </div>
+            <div class="no-booking-panel">
+                <img src="../public/img/illustration-empty.png" alt="">
+                <div class="no-booking-content">
+                    <div class="no-booking-title">
+                        <h1>Quý khách không có đơn đặt chỗ sắp tới.</h1>
+                        <p>
+                            Quý khách đang tìm đơn đặt chỗ <a href="">đã qua</a> hay
+                            <a href="">đã huỷ</a>??
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <div class="user-control">
-
-    </div>
+</div>
 
 
-    <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+<script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
         integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.21.1/babel.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<script src="../public/js/user/index.js"></script>
+<script src="../public/js/user/formvalidate.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,157 @@
+body {
+  font-family: mallory, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+
+.left-menu {
+  min-height: 100%;
+  width: 29%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 7px 0 8px #e9ebee;
+
+  .left-menu-inner {
+    margin: 0;
+    padding: 0;
+
+    li {
+      font-size: 20px;
+      padding: 20px;
+    }
+  }
+}
+
+.user-panel {
+  width: 68%;
+
+  .banner {
+    box-shadow: 0 4px 10px 0 #bec2c9;
+    border-radius: 2px;
+    display: flex;
+
+    .banner-container {
+      padding: 14px;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      .banner-logo {
+        background-color: rgb(29, 33, 41);
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+      }
+
+      .banner-content {
+        padding: 0 4px;
+        line-height: 2;
+
+        h4 {
+          padding: 4px;
+        }
+
+        p {
+          padding: 4px;
+        }
+      }
+
+      .banner-button {
+        .banner-learn-more {
+          font-size: 16px;
+          color: white;
+          padding: 14px;
+          background-color: #5392f9;
+          border: none;
+          outline: none;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+
+  .user-panel-container {
+    height: 100%;
+    margin-top: 30px;
+
+    .my-booking-filter {
+
+      .my-booking-header {
+        display: flex;
+        justify-content: space-between;
+
+        .filter-container {
+          display: flex;
+
+          .filter-option {
+            font-size: 20px;
+            padding: 12px;
+          }
+
+          .active a {
+            color: black;
+          }
+        }
+
+        .block-switch {
+          display: flex;
+
+          .switch-title, .switch-option {
+            padding: 12px;
+            font-size: 20px;
+          }
+        }
+      }
+
+      .room-number-search {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+        margin-top: 30px;
+        position: relative;
+
+        .room-number-search-input {
+          display: flex;
+          flex-direction: column;
+          font-size: 16px;
+          top: 10px;
+        }
+        .room-number-search-button{
+          height: 100%;
+          .room-search-button{
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1500px !important;
+  }
+}
+
