@@ -1,5 +1,5 @@
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: mallory, Helvetica Neue, Helvetica, Arial, sans-serif !important;
 }
 
 h1, h2, h3, h4, p {
@@ -24,7 +24,7 @@ a {
 
 .left-menu {
   min-height: 100%;
-  width: 29%;
+  width: 25%;
   border: none;
   outline: none;
   border-radius: 3px;
@@ -35,12 +35,13 @@ a {
     padding: 0;
 
     li {
-      font-weight: 500;
-      font-size: 20px;
-      padding: 20px;
+      font-weight: 600;
+      font-size: 15px;
+      padding: 16px;
       cursor: pointer;
       color: #007bff;
-      i{
+
+      i {
         margin-right: 6px;
         font-size: 22px;
       }
@@ -59,7 +60,7 @@ a {
 }
 
 .user-panel {
-  width: 68%;
+  width: 70%;
 
   .banner {
     box-shadow: 0 4px 10px 0 #bec2c9;
@@ -89,7 +90,7 @@ a {
         }
 
         p {
-          padding: 4px;
+          font-size: 16px;
         }
       }
 
@@ -97,11 +98,11 @@ a {
         .banner-learn-more {
           font-size: 16px;
           color: white;
-          padding: 14px;
+          padding: 10px;
           background-color: #5392f9;
           border: none;
           outline: none;
-          border-radius: 5px;
+          border-radius: 15px;
         }
       }
     }
@@ -121,14 +122,15 @@ a {
           display: flex;
 
           .filter-option {
-            font-size: 22px;
+            font-size: 18px;
             padding: 12px;
           }
 
           .active {
             border-bottom: 3px solid #5392f9;
           }
-          .active a{
+
+          .active a {
             color: black;
           }
         }
@@ -136,9 +138,10 @@ a {
         .block-switch {
           display: flex;
           border: 1px solid #cccccc;
+
           .switch-title, .switch-option {
             padding: 12px;
-            font-size: 22px;
+            font-size: 17px;
           }
         }
       }
@@ -153,7 +156,8 @@ a {
 
         .room-number-search-header {
           p {
-            font-size: 20px;
+            font-size: 16px;
+            font-weight: 500;
           }
         }
 
@@ -163,8 +167,9 @@ a {
           align-items: center;
 
           input {
+            color: rgb(42, 42, 46);
             font-size: 18px;
-            padding: 14px 0 14px 10px;
+            padding: 6px 0 8px 6px;
             border: 1px solid rgb(206, 208, 212);
             outline-color: #75a8f9;
             border-radius: 2px;
@@ -173,7 +178,7 @@ a {
 
           .room-search-button {
             margin-left: 20px;
-            padding: 15px;
+            padding: 9px;
           }
         }
       }
@@ -198,7 +203,7 @@ a {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1500px !important;
+    max-width: 1300px !important;
   }
-}
 
+}

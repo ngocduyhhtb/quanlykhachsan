@@ -1,0 +1,174 @@
+body {
+  font-family: mallory, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.left-menu {
+  min-height: 100%;
+  width: 25%;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  box-shadow: 7px 0 8px #e9ebee;
+}
+.left-menu .left-menu-inner {
+  margin: 0;
+  padding: 0;
+}
+.left-menu .left-menu-inner li {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 16px;
+  cursor: pointer;
+  color: #007bff;
+}
+.left-menu .left-menu-inner li i {
+  margin-right: 6px;
+  font-size: 22px;
+}
+.left-menu .left-menu-inner .active {
+  background-color: #f8f7f9;
+  border-right: 5px solid #5392f9;
+}
+.left-menu .left-menu-inner :not(.active):hover {
+  background-color: #5392f9;
+  color: white;
+}
+
+.user-panel {
+  width: 70%;
+}
+.user-panel .banner {
+  box-shadow: 0 4px 10px 0 #bec2c9;
+  border-radius: 2px;
+  display: flex;
+}
+.user-panel .banner .banner-container {
+  padding: 14px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.user-panel .banner .banner-container .banner-logo {
+  background-color: #1d2129;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.user-panel .banner .banner-container .banner-content {
+  padding: 0 4px;
+  line-height: 2;
+}
+.user-panel .banner .banner-container .banner-content h4 {
+  padding: 4px;
+}
+.user-panel .banner .banner-container .banner-content p {
+  font-size: 16px;
+}
+.user-panel .banner .banner-container .banner-button .banner-learn-more {
+  font-size: 16px;
+  color: white;
+  padding: 10px;
+  background-color: #5392f9;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+.user-panel .user-panel-container {
+  height: 100%;
+  margin-top: 30px;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header {
+  display: flex;
+  justify-content: space-between;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .filter-container {
+  display: flex;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .filter-container .filter-option {
+  font-size: 18px;
+  padding: 12px;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .filter-container .active {
+  border-bottom: 3px solid #5392f9;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .filter-container .active a {
+  color: black;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .block-switch {
+  display: flex;
+  border: 1px solid #cccccc;
+}
+.user-panel .user-panel-container .my-booking-filter .my-booking-header .block-switch .switch-title, .user-panel .user-panel-container .my-booking-filter .my-booking-header .block-switch .switch-option {
+  padding: 12px;
+  font-size: 17px;
+}
+.user-panel .user-panel-container .my-booking-filter .room-number-search {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  position: relative;
+}
+.user-panel .user-panel-container .my-booking-filter .room-number-search .room-number-search-header p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.user-panel .user-panel-container .my-booking-filter .room-number-search .room-number-search-button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.user-panel .user-panel-container .my-booking-filter .room-number-search .room-number-search-button input {
+  color: #2a2a2e;
+  font-size: 18px;
+  padding: 6px 0 8px 6px;
+  border: 1px solid #ced0d4;
+  outline-color: #75a8f9;
+  border-radius: 2px;
+  width: 300px;
+}
+.user-panel .user-panel-container .my-booking-filter .room-number-search .room-number-search-button .room-search-button {
+  margin-left: 20px;
+  padding: 9px;
+}
+.user-panel .no-booking-panel {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+.user-panel .no-booking-panel img {
+  width: 161px;
+  height: 125px;
+}
+.user-panel .no-booking-panel .no-booking-content {
+  margin-left: 14px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1300px !important;
+  }
+}
+
+/*# sourceMappingURL=user.css.map */
