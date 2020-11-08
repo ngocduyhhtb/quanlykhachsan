@@ -1,5 +1,5 @@
 body {
-  font-family: mallory, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
 h1, h2, h3, h4, p {
@@ -12,7 +12,7 @@ li {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .container {
@@ -35,8 +35,25 @@ a {
     padding: 0;
 
     li {
+      font-weight: 500;
       font-size: 20px;
       padding: 20px;
+      cursor: pointer;
+      color: #007bff;
+      i{
+        margin-right: 6px;
+        font-size: 22px;
+      }
+    }
+
+    .active {
+      background-color: #f8f7f9;
+      border-right: 5px solid #5392f9;
+    }
+
+    :not(.active):hover {
+      background-color: #5392f9;
+      color: white;
     }
   }
 }
@@ -104,21 +121,24 @@ a {
           display: flex;
 
           .filter-option {
-            font-size: 20px;
+            font-size: 22px;
             padding: 12px;
           }
 
-          .active a {
+          .active {
+            border-bottom: 3px solid #5392f9;
+          }
+          .active a{
             color: black;
           }
         }
 
         .block-switch {
           display: flex;
-
+          border: 1px solid #cccccc;
           .switch-title, .switch-option {
             padding: 12px;
-            font-size: 20px;
+            font-size: 22px;
           }
         }
       }
@@ -127,24 +147,51 @@ a {
         height: 100%;
         width: 100%;
         display: flex;
-        align-items: center;
-
+        flex-direction: column;
         margin-top: 30px;
         position: relative;
 
-        .room-number-search-input {
-          display: flex;
-          flex-direction: column;
-          font-size: 16px;
-          top: 10px;
+        .room-number-search-header {
+          p {
+            font-size: 20px;
+          }
         }
-        .room-number-search-button{
+
+        .room-number-search-button {
           height: 100%;
-          .room-search-button{
-            height: 100%;
+          display: flex;
+          align-items: center;
+
+          input {
+            font-size: 18px;
+            padding: 14px 0 14px 10px;
+            border: 1px solid rgb(206, 208, 212);
+            outline-color: #75a8f9;
+            border-radius: 2px;
+            width: 300px;
+          }
+
+          .room-search-button {
+            margin-left: 20px;
+            padding: 15px;
           }
         }
       }
+    }
+  }
+
+  .no-booking-panel {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 161px;
+      height: 125px;
+    }
+
+    .no-booking-content {
+      margin-left: 14px;
     }
   }
 }
